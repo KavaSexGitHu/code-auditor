@@ -1,0 +1,5 @@
+{
+  "name": "Code Auditor Pro",
+  "description": "Professional technical audit tool for multi-repository comparison. Detects logic theft, code plagiarism, and license conflicts with detailed technical evidence.",
+  "requestFramePermissions": []
+}

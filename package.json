@@ -1,0 +1,81 @@
+{
+  "name": "code-auditor",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Premium Forensic Code Auditing Tool",
+  "author": "yassier27",
+  "main": "electron-main.js",
+  "type": "module",
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps",
+    "dev": "tsx server.ts",
+    "dev:electron": "concurrently \"tsx server.ts\" \"wait-on http://localhost:3000 && cross-env NODE_ENV=development electron .\"",
+    "build": "vite build",
+    "start": "node server.ts",
+    "dist": "npm run build && electron-builder",
+    "clean": "rm -rf dist dist-electron",
+    "lint": "tsc --noEmit"
+  },
+  "build": {
+    "appId": "com.yassier27.CodeAuditor",
+    "productName": "Code Auditor",
+    "files": [
+      "dist/**/*",
+      "electron-main.js",
+      "preload.cjs",
+      "assets/**/*"
+    ],
+    "asarUnpack": [
+      "node_modules/better-sqlite3/**/*"
+    ],
+    "directories": {
+      "output": "dist-electron"
+    },
+    "win": {
+      "icon": "assets/icon-256x256.ico",
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "assets/icon-256x256.ico",
+      "uninstallerIcon": "assets/icon-256x256.ico",
+      "runAfterFinish": true
+    }
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "better-sqlite3": "^12.4.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "jspdf": "^4.2.0",
+    "jspdf-autotable": "^5.0.7",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.7.0",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^4.0.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "electron": "^40.7.0",
+    "electron-builder": "^26.8.1",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "wait-on": "^9.0.4"
+  }
+}
