@@ -76,8 +76,8 @@ Once the audit is complete, you can generate and download a **Professional PDF R
 
 | report | report | report |
 |---|---|---|
-|![alt](ex/code-auditor.jpg)| ![alt](ex/code-auditor (3).jpg) | ![alt](ex/code-auditor (2).jpg) |
-| ![alt](ex/code-auditor (4).jpg) | ![alt](ex/code-auditor (5).jpg) | ![alt](ex/code-auditor (6).jpg) |
+|![alt](ex/code-auditor.jpg)| ![alt](ex/code-auditor3.jpg) | ![alt](ex/code-auditor2.jpg) |
+| ![alt](ex/code-auditor4.jpg) | ![alt](ex/code-auditor5.jpg) | ![alt](ex/code-auditor6.jpg) |
 
 ---
 
